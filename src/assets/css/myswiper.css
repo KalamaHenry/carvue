@@ -1,0 +1,42 @@
+.mint-swipe .mint-swipe-items-wrap {
+    position: relative;
+    overflow: hidden;
+    height: 0px;
+    padding-bottom: 40%;
+}
+.mint-swipe-item img{
+	width: 100%;
+} 
+.mint-cell-wrapper{
+    padding: 0;
+}
+.nav{
+	display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+/* 主页中间导航 */
+.HolyGrail-body .mint-button--small{
+    color: #fff;
+    border-radius: 14px;
+}
+.HolyGrail-body .mint-cell-value{
+	flex-wrap: wrap;
+}
+
+/* tab.vue底部 */
+.mint-button--default{
+  box-shadow: none;
+}
+
+/* 搜索框 */
+.mint-searchbar{
+    background: #f2f2f2;
+}
+.mint-searchbar-inner .mintui-search{
+    font-size: 23px;
+}
+.mint-search{
+    height: 100%;
+}
